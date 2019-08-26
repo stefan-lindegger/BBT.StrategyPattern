@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>http://bbtsoftware.github.io/BBT.StrategyPattern</id>
+	<title>BBT.StrategyPattern</title>
+	<link rel="self" href="http://bbtsoftware.github.io/BBT.StrategyPattern" />
+	<rights>2019</rights>
+	<updated>2019-08-26T07:43:25Z</updated>
+</feed>
