@@ -39,14 +39,14 @@ var searchModule = function() {
     a(
         {
             id:0,
-            title:"IStrategyLocator",
-            content:"IStrategyLocator",
+            title:"IGenericStrategyProvider",
+            content:"IGenericStrategyProvider",
             description:'',
             tags:''
         },
         {
-            url:'/BBT.StrategyPattern/api/BBT.StrategyPattern/IStrategyLocator_1',
-            title:"IStrategyLocator<TStrategy>",
+            url:'/BBT.StrategyPattern/api/BBT.StrategyPattern/IGenericStrategyProvider_2',
+            title:"IGenericStrategyProvider<TStrategy, TCriterion>",
             description:""
         }
     );
@@ -67,6 +67,20 @@ var searchModule = function() {
     a(
         {
             id:2,
+            title:"IGenericStrategy",
+            content:"IGenericStrategy",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/BBT.StrategyPattern/api/BBT.StrategyPattern/IGenericStrategy_1',
+            title:"IGenericStrategy<T>",
+            description:""
+        }
+    );
+    a(
+        {
+            id:3,
             title:"GenericInstanceCreator",
             content:"GenericInstanceCreator",
             description:'',
@@ -80,29 +94,15 @@ var searchModule = function() {
     );
     a(
         {
-            id:3,
-            title:"IGenericStrategyProvider",
-            content:"IGenericStrategyProvider",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/BBT.StrategyPattern/api/BBT.StrategyPattern/IGenericStrategyProvider_2',
-            title:"IGenericStrategyProvider<TStrategy, TCriterion>",
-            description:""
-        }
-    );
-    a(
-        {
             id:4,
-            title:"IGenericStrategy",
-            content:"IGenericStrategy",
+            title:"IStrategyLocator",
+            content:"IStrategyLocator",
             description:'',
             tags:''
         },
         {
-            url:'/BBT.StrategyPattern/api/BBT.StrategyPattern/IGenericStrategy_1',
-            title:"IGenericStrategy<T>",
+            url:'/BBT.StrategyPattern/api/BBT.StrategyPattern/IStrategyLocator_1',
+            title:"IStrategyLocator<TStrategy>",
             description:""
         }
     );
